@@ -1,0 +1,24 @@
+{
+  "name": "immersivemuseum",
+  "version": "1.0.0",
+  "description": "Projet de galerie sur la licence Kingdom Hearts en réalité augmentée",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxime-Albertelli/Immersive-Sumexum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxime-Albertelli/Immersive-Sumexum/issues"
+  },
+  "homepage": "https://github.com/Maxime-Albertelli/Immersive-Sumexum#readme",
+  "dependencies": {
+    "@ar-js-org/ar.js": "^3.4.5",
+    "install": "^0.13.0",
+    "npm": "^10.9.2"
+  }
+}
