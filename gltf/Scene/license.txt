@@ -1,0 +1,11 @@
+Model Information:
+* title:	Game Case
+* source:	https://sketchfab.com/3d-models/game-case-b9f59fa49f4c465c94ec262b21898d54
+* author:	NateSquared (https://sketchfab.com/NateSquared)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Game Case" (https://sketchfab.com/3d-models/game-case-b9f59fa49f4c465c94ec262b21898d54) by NateSquared (https://sketchfab.com/NateSquared) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
