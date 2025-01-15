@@ -1,3 +1,23 @@
-body {
-  background: lightblue;
+#camera {
+  width: 50%;
+  height: 50%;
+}
+
+#arjs-video {
+  width: 50% !important;
+  height: 50% !important;
+  position: None !important;
+  top: 0px !important;
+  left: 0px !important;
+  z-index: -2 !important;
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+}
+
+#corps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
 }
