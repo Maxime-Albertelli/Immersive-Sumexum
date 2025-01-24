@@ -1,0 +1,55 @@
+<script src="js/javascript.js" defer></script>
+<link rel="stylesheet" href="style/style_canva.css" />
+
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+<script>
+  fetch("json/database.json")
+    .then((response) => response.json())
+    .then((data) => console.log(data.KH));
+</script>
+<!--<link rel="manifest" href="manifest.json" />-->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiche détaillée</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id = "LeftHead">
+          <h1 id="title">...</h1>
+          <p id="Plateformes">Gummiphone</p>
+        </div>
+        <div class="image-container">jeu.img</div>
+      </header>
+      <div class="content">
+        <div class="block" id="histoire">
+          <h2 onclick="toggleBlock('histoire')">Histoire</h2>
+          <p id="Histoire">L'histoire s'écrit dans la lumière</p>
+        </div>
+        <div class="image-container">bg design</div>
+        <div class="block" id="sortie-dev">
+          <h2 onclick="toggleBlock('sortie-dev')">Sortie / Dev</h2>
+          <p id="Dev">Que votre coeur soit la clé qui vous guide</p>
+        <div class="avis">
+          <h2>Avis :</h2>
+          <p id="Avis">Avis joueurs</p>
+        </div>
+      </div>
+      <footer>
+        <h2>Source : </h2>
+        <p id="Sources">Nos sources</p>
+        <p id="Sources">Henri Gicquel</p>
+      </footer>
+    </div>
+    <script>
+      function toggleBlock(id) {
+        const block = document.getElementById(id);
+        block.classList.toggle("collapsed");
+      }
+    </script>
+  </body>
+</html>

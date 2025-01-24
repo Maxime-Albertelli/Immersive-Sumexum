@@ -1,0 +1,152 @@
+{
+  "KHBC": {
+    "Name": "KINGDOM HEARTS χ Back Cover",
+    "Timeline": -6.5,
+    "Year": "2017-01-12",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHChi": {
+    "Name": "KINGDOM HEARTS χ",
+    "Timeline": -6.0,
+    "Year": "2013-07-18",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHUChi": {
+    "Name": "KINGDOM HEARTS Unchained χ",
+    "Timeline": -5.0,
+    "Year": "2015-09-03",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHUC": {
+    "Name": "KINGDOM HEARTS Union χ",
+    "Timeline": -4.0,
+    "Year": "2017-03-23",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHML": {
+    "Name": "KINGDOM HEARTS Missing-Link",
+    "Timeline": -3.0,
+    "Year": null,
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHDR": {
+    "Name": "KINGDOM HEARTS Dark Road",
+    "Timeline": -2.0,
+    "Year": "2020-06-22",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHBBS": {
+    "Name": "KINGDOM HEARTS Birth by Sleep",
+    "Timeline": -1.0,
+    "Year": "2010-01-09",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHBBS0.2": {
+    "Name": "Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-",
+    "Timeline": -0.2,
+    "Year": "2017-01-12",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KH": {
+    "Name": "KINGDOM HEARTS",
+    "Timeline": 0.0,
+    "Year": "28/03/2002",
+    "Histoire": "Histoire de Sora qui recherche Kairi et Riku",
+    "Dev": "Détails sur le dev",
+    "Avis": "Avis sur KH",
+    "Sources": "Sources de recherches",
+    "Plateformes": "PS2"
+  },
+  "KHDAYS": {
+    "Name": "KINGDOM HEARTS 358/2 Days",
+    "Timeline": 0.8,
+    "Year": "2009-05-30",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHCOM": {
+    "Name": "KINGDOM HEARTS Chain of Memories",
+    "Timeline": 1.0,
+    "Year": "2004-11-11",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHII": {
+    "Name": "KINGDOM HEARTS II",
+    "Timeline": 2.0,
+    "Year": "2005-12-22",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHC": {
+    "Name": "KINGDOM HEARTS Coded",
+    "Timeline": 3.0,
+    "Year": "2008-11-19",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHDDD": {
+    "Name": "KINGDOM HEARTS 3D Dream Drop Distance",
+    "Timeline": 4.0,
+    "Year": "2012-03-29",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHIII": {
+    "Name": "KINGOM HEARTS III",
+    "Timeline": 5.0,
+    "Year": "2019-01-25",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHMOM": {
+    "Name": "KINGDOM HEARTS Melody of Memory",
+    "Timeline": 6.0,
+    "Year": "2020-11-11",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KHIV": {
+    "Name": "KINGDOM HEARTS IV",
+    "Timeline": 7.0,
+    "Year": null,
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KH1.5": {
+    "Name": "KINGDOM HEARTS HD 1.5 ReMIX",
+    "Timeline": null,
+    "Year": "2013-03-14",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KH2.5": {
+    "Name": "KINGDOM HEARTS HD 2.5 ReMIX",
+    "Timeline": null,
+    "Year": "2014-10-02",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KH2.8": {
+    "Name": "KINGDOM HEARTS HD 2.8 Final Chapter Prologue",
+    "Timeline": null,
+    "Year": "2017-01-12",
+    "Histoire": "",
+    "Dev": ""
+  },
+  "KH1.5p2.5": {
+    "Name": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
+    "Timeline": null,
+    "Year": "2017-03-09",
+    "Histoire": "",
+    "Dev": ""
+  }
+}
