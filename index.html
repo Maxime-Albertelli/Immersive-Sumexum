@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Nabla&display=swap" rel="stylesheet">
-  <script src="js/javascript.js" defer></script>
-  <link rel="stylesheet" href="style/style.css" />
-  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Immersive Sumexum</title>
-</head>
-<body>
-  <div class="container">
-    <header class="header">
-      <h1>Immersive sumexum</h1>
-    </header>
-    <main class="content">
-      <div class="video-scan-box">
-        <div class="h_iframe">
-          <iframe allow="camera" height=100% width=100% scrolling='no' src="./camera.html" allowfullscreen></iframe>
-        </div>
-      </div>
-      <button class="info-button">Plus d'informations</button>
-    </main>
-    <footer class="footer">
-      <p>Site développé par Henri Gicquel et Maxime Albertelli</p>
-    </footer>
-  </div>
-</body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Nabla&display=swap" rel="stylesheet">
+    <script src="js/javascript.js" defer></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersive Sumexum</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Immersive sumexum</h1>
+      </header>
+      <main>
+        <iframe id="arCamera" allow="camera" height="100%" width="100%" scrolling='no' src="./camera.html" allowfullscreen></iframe>
+        <a href="./pages/details.html"><button class="info-button">Plus d'informations</button></a>
+      </main>
+      <footer>
+        <p>Site développé par Henri Gicquel et Maxime Albertelli</p>
+      </footer>
+    </div>
+  </body>
 </html>
 
  <!-- <div id="corps">
