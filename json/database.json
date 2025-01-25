@@ -4,56 +4,88 @@
     "Timeline": -6.5,
     "Year": "2017-01-12",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHBC_Logo.webp"
   },
   "KHChi": {
     "Name": "KINGDOM HEARTS χ",
     "Timeline": -6.0,
     "Year": "2013-07-18",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHChi_Logo.webp"
   },
   "KHUChi": {
     "Name": "KINGDOM HEARTS Unchained χ",
     "Timeline": -5.0,
     "Year": "2015-09-03",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHUChi_Logo.webp"
   },
   "KHUC": {
     "Name": "KINGDOM HEARTS Union χ",
     "Timeline": -4.0,
     "Year": "2017-03-23",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHUC_Logo.webp"
   },
   "KHML": {
     "Name": "KINGDOM HEARTS Missing-Link",
     "Timeline": -3.0,
     "Year": null,
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHML_Logo.webp"
   },
   "KHDR": {
     "Name": "KINGDOM HEARTS Dark Road",
     "Timeline": -2.0,
     "Year": "2020-06-22",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHDR_Logo.webp"
   },
   "KHBBS": {
     "Name": "KINGDOM HEARTS Birth by Sleep",
     "Timeline": -1.0,
     "Year": "2010-01-09",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHBBS_Logo.webp"
   },
   "KHBBS0.2": {
-    "Name": "Kingdom Hearts 0.2 Birth by Sleep -A fragmentary passage-",
+    "Name": "KINGDOM HEARTS 0.2 Birth by Sleep -A fragmentary passage-",
     "Timeline": -0.2,
     "Year": "2017-01-12",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHBBS0.2_Logo.webp"
   },
   "KH": {
     "Name": "KINGDOM HEARTS",
@@ -63,90 +95,140 @@
     "Dev": "Détails sur le dev",
     "Avis": "Avis sur KH",
     "Sources": "Sources de recherches",
-    "Plateformes": "PS2"
+    "Plateformes": "PS2",
+    "Cover": "Images/Canva/Game/KH_Logo.webp",
+    "Achat": "https://www.cdiscount.com/search/kingdom+hearts+ps2.html"
   },
   "KHDAYS": {
     "Name": "KINGDOM HEARTS 358/2 Days",
     "Timeline": 0.8,
     "Year": "2009-05-30",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHDAYS_Logo.webp"
   },
   "KHCOM": {
     "Name": "KINGDOM HEARTS Chain of Memories",
     "Timeline": 1.0,
     "Year": "2004-11-11",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHCOM_Logo.webp"
   },
   "KHII": {
     "Name": "KINGDOM HEARTS II",
     "Timeline": 2.0,
     "Year": "2005-12-22",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHII_Logo.webp"
   },
   "KHC": {
     "Name": "KINGDOM HEARTS Coded",
     "Timeline": 3.0,
     "Year": "2008-11-19",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHC_Logo.webp"
   },
   "KHDDD": {
     "Name": "KINGDOM HEARTS 3D Dream Drop Distance",
     "Timeline": 4.0,
     "Year": "2012-03-29",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHDDD_Logo.webp"
   },
   "KHIII": {
     "Name": "KINGOM HEARTS III",
     "Timeline": 5.0,
     "Year": "2019-01-25",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHIII_Logo.webp"
   },
   "KHMOM": {
     "Name": "KINGDOM HEARTS Melody of Memory",
     "Timeline": 6.0,
     "Year": "2020-11-11",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHMOM_Logo.webp"
   },
   "KHIV": {
     "Name": "KINGDOM HEARTS IV",
     "Timeline": 7.0,
     "Year": null,
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KHIV_Logo.webp"
   },
   "KH1.5": {
     "Name": "KINGDOM HEARTS HD 1.5 ReMIX",
     "Timeline": null,
     "Year": "2013-03-14",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KH1.5_Logo.webp"
   },
   "KH2.5": {
     "Name": "KINGDOM HEARTS HD 2.5 ReMIX",
     "Timeline": null,
     "Year": "2014-10-02",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KH2.5_Logo.webp"
   },
   "KH2.8": {
     "Name": "KINGDOM HEARTS HD 2.8 Final Chapter Prologue",
     "Timeline": null,
     "Year": "2017-01-12",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KH2.8_Logo.webp"
   },
   "KH1.5p2.5": {
-    "Name": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
+    "Name": "KINGDOM HEARTS HD 1.5 + 2.5 ReMIX",
     "Timeline": null,
     "Year": "2017-03-09",
     "Histoire": "",
-    "Dev": ""
+    "Dev": "",
+    "Avis": "",
+    "Sources": "",
+    "Plateformes": "",
+    "Cover": "Images/Canva/Game/KH1.5h2.5_Logo.webp"
   }
 }

@@ -1,5 +1,13 @@
+main {
+  padding: 20px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Expletus Sans", serif;
   margin: 0;
   padding: 0;
   display: flex;
@@ -9,27 +17,29 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  background: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  overflow: hidden;
-}
 header {
+  position-area: block-start span-inline-end;
   width: 100%;
   padding: 15px;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 70%;
   color: gray;
   margin: 5px 0 0 0;
+  font-family: "Expletus Sans", serif;
 }
 #LeftHead {
-  width: 70%;
+  position-area: block-start span-inline-end;
+  width: 30%;
 }
-.header h1 {
-  font-size: 1.5em;
-  margin: 0;
+footer {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  font-size: 12px;
+  color: #666;
 }
+
+/*
+
 .image-container {
   background-color: #9b1616;
   display: flex;
@@ -37,9 +47,21 @@ header {
   align-items: center;
   width: 30%;
   color: white;
-  font-size: 1.2em;
+  font-size: 100%;
   font-weight: bold;
 }
+
+.container {
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
 .content {
   padding: 15px;
 }
@@ -70,4 +92,15 @@ header {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 5px;
+}*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Expletus Sans", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 100%;
+  width: 100%;
 }
