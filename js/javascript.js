@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   async function loadJSON() {
     try {
       const params = new URLSearchParams(location.search);
-      const reference = params.get("url");
+      const reference = "KH"; //params.get("url");
       const response = await fetch("../json/database.json");
       const data = await response.json();
       document.getElementById("title").textContent = data[reference].Name;
