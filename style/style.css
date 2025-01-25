@@ -27,6 +27,7 @@ body {
   margin-bottom: 20px;
 }
 
+
 header {
   background-color: #f9f9f9;
   padding: 20px;
@@ -105,4 +106,62 @@ footer {
 .h_iframe {
   position: relative;
   height: 100%;
+}
+
+a {
+  text-decoration: none; /* no underline */
+}
+
+/*Gestion du menu déroulant*/
+
+.menu{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.menu ul {
+  display: none;
+  padding-inline-start: 0px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  text-wrap: balance;
+  height: 50vh;
+}
+
+.menu ul li{
+  width: 100%;
+  padding: 8px;
+}
+
+.menu ul li:hover{
+  background-color: #ccc;
+}
+
+.menu li:hover > ul {
+  display: block;
+}
+
+.menu li {
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0px;
+  background-color:#f0f0f0;
+  padding: 5px;
+  width: 90%;
+}
+
+.menuHead{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.menu ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
 }
