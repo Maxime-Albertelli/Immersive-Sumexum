@@ -2,7 +2,9 @@
     "name": "Immersive Sumexum",
     "short_name": "ImmeSum",
     "start_url": "./?utm_source=web_app_manifest",
-    "display": "standalone",
+    "display": "fullscreen",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34",
     "icons": [
       {
         "src": "images/logoCouronne.png",
@@ -10,9 +12,5 @@
         "type": "image/png"
       }
     ],
-    "related_applications": [
-      {
-        "platform": "web"
-      }
-    ]
+    "related_applications": false
   }
