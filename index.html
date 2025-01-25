@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Nabla&display=swap" rel="stylesheet">
-    <script src="js/javascript.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="js/testvar.js"></script>-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Immersive Sumexum</title>
   </head>
   <body>
@@ -18,8 +21,18 @@
         <h1>Immersive sumexum</h1>
       </header>
       <main>
-        <iframe id="arCamera" allow="camera" height="100%" width="100%" scrolling='no' src="./camera.html" allowfullscreen></iframe>
-        <a href="./pages/details.html"><button class="info-button">Plus d'informations</button></a>
+        <iframe
+          id="arCamera"
+          allow="camera"
+          height="100%"
+          width="100%"
+          scrolling="no"
+          src="./camera.html"
+          allowfullscreen
+        ></iframe>
+        <a href="canva.html?url=KH"
+          ><button class="info-button">Plus d'informations</button></a
+        >
       </main>
       <footer>
         <p>Site développé par Henri Gicquel et Maxime Albertelli</p>
@@ -27,20 +40,3 @@
     </div>
   </body>
 </html>
-
- <!-- <div id="corps">
-    <p>YAYAYAYAYAYAYYA</p>
-    <a-scene id="camera" embedded arjs="sourceType: webcam">
-      <a-marker
-        preset="custom"
-        type="pattern"
-        url="Images\Pattern\pattern-KindgomHearts.patt"
-      >
-        <a-entity
-          obj-model="obj:url(gltf\cover-kh\DVD,BD_Case.obj); mtl:url(gltf\cover-kh\DVD,BD_Case.mtl)"
-          scale="5 5 5"
-        ></a-entity>
-      </a-marker>
-      <a-entity camera></a-entity>
-    </a-scene>
-  </div>-->
