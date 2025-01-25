@@ -22,11 +22,10 @@ body {
   height: 100%;
 }
 
-#arCamera{
+#arCamera {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 
 header {
   background-color: #f9f9f9;
@@ -114,7 +113,7 @@ a {
 
 /*Gestion du menu déroulant*/
 
-.menu{
+.menu {
   display: flex;
   justify-content: center;
   list-style-type: none;
@@ -124,18 +123,18 @@ a {
 .menu ul {
   display: none;
   padding-inline-start: 0px;
-  overflow-y:scroll;
+  overflow-y: scroll;
   overflow-x: hidden;
   text-wrap: balance;
   height: 50vh;
 }
 
-.menu ul li{
+.menu ul li {
   width: 100%;
   padding: 8px;
 }
 
-.menu ul li:hover{
+.menu ul li:hover {
   background-color: #ccc;
 }
 
@@ -147,16 +146,16 @@ a {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-color:#f0f0f0;
+  border-color: #f0f0f0;
   display: flex;
   justify-content: center;
   padding-inline-start: 0px;
-  background-color:#f0f0f0;
+  background-color: #f0f0f0;
   padding: 5px;
   width: 90%;
 }
 
-.menuHead{
+.menuHead {
   border-radius: 10px 10px 0px 0px;
 }
 
