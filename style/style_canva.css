@@ -1,4 +1,4 @@
-main {
+/*main {
   padding: 20px;
   height: 500px;
   display: flex;
@@ -38,7 +38,7 @@ footer {
   color: #666;
 }
 
-/*
+
 
 .image-container {
   background-color: #9b1616;
@@ -92,7 +92,7 @@ footer {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 5px;
-}*/
+}
 body {
   margin: 0;
   padding: 0;
@@ -104,3 +104,4 @@ body {
   height: 100%;
   width: 100%;
 }
+*/
