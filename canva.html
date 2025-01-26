@@ -14,7 +14,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/javascript.js" defer></script>
-
     <link rel="stylesheet" href="style/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,18 +36,15 @@
         <img id="GameImage"></img>
       </header>
       <main>
-        <div class="block" id="Histoire">
-          <h2 onclick="toggleBlock('Histoire')">Histoire</h2>
-          <a href = "" id="AchatImage">
-            <img src="Images\Canva\shop.webp"></img>
-          </a>
+        <div class="block" id="BlockHistoire">
+          <h2>Histoire</h2>
           <p id="Histoire">L'histoire s'écrit dans la lumière</p>
         </div>
         <a href = "" id="AchatImage">
           <img id="imgChariot" src="Images\Canva\shop.webp"></img>
         </a>
         <div class="block" id="sortieDev">
-          <h2 onclick="toggleBlock('sortieDev')">Sortie / Dev</h2>
+          <h2>Sortie / Dev</h2>
           <p id="Dev">Que votre coeur soit la clé qui vous guide</p>
           <div class="avis">
             <h2>Avis :</h2>
@@ -64,11 +60,5 @@
         <p>Site développé par Henri Gicquel et Maxime Albertelli</p>
       </footer>
     </div>
-    <script>
-      function toggleBlock(id) {
-        const block = document.getElementById(id);
-        block.classList.toggle("collapsed");
-      }
-    </script>
   </body>
 </html>
