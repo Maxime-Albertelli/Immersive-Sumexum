@@ -1,21 +1,14 @@
+<!--Import du fichier Javascript qui contient une fonction asynchrone qui récupère l'extension de l'url du canva chargé. 
+  cette extension coorespond à une clé du fichier database.json et récupère ainsi différentes données afin de 
+  les placer dans les bonnes balise en se basant sur leur Id-->
 <script src="js/javascript.js" defer></script>
-<link rel="stylesheet" href="style/style_canva.css" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap"
-  rel="stylesheet"
-/>
-<!--<link rel="manifest" href="manifest.json" />-->
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js/javascript.js" defer></script>
     <link rel="stylesheet" href="style/style.css" />
-
+    <!-- Intégration la police d'écriture Expletu-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,6 +20,7 @@
   </head>
   <body>
     <div class="container">
+      <!-- Définition de l'en-tête avec nom du jeu, les plateformes, sa position dans la timeline et son îcone-->
       <header id="headerDetails">
         <div id="LeftHead">
           <p id="title">...</p>
@@ -35,27 +29,33 @@
         </div>
         <img id="GameImage"></img>
       </header>
+      <!--Création d'un bloc contenant l'histoire/Synopsis du jeu-->
       <main>
         <div class="block" id="BlockHistoire">
           <h2>Histoire</h2>
           <p id="Histoire">L'histoire s'écrit dans la lumière</p>
         </div>
+        <!--Image redirigeant l'utilisateur vers un site d'achat/de téléchargement ou rien si plus ou pas disponible-->
         <a href = "" id="AchatImage">
           <img id="imgChariot" src="Images\Canva\shop.webp"></img>
         </a>
+        <!--Création d'un bloc contenant date de sortie du jeu, des annecdotes, les mises à jour ou encore les outils utilisés-->
         <div class="block" id="sortieDev">
           <h2>Sortie / Dev</h2>
           <p id="Dev">Que votre coeur soit la clé qui vous guide</p>
+          <!--Création d'un bloc contenant un avis extrait du test de JeuVideo.com si disponible-->
           <div class="avis">
             <h2>Avis :</h2>
             <p id="Avis">Avis joueurs</p>
           </div>
         </div>
         <div>
+          <!--Création d'un bloc contenant les sources utilisées pour les informations-->
           <h2>Source :</h2>
           <p id="Sources">Nos sources</p>
         </div>
       </main>
+      <!--Définition du pied de page-->
       <footer>
         <p>Site développé par Henri Gicquel et Maxime Albertelli</p>
       </footer>

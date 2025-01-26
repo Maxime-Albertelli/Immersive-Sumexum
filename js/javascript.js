@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
   async function loadJSON() {
     try {
+      //Récupération du texte situé dans l'extension de l'url (ex : canva.html?URL=KH ici c'est KH qui est récupéré)
       const params = new URLSearchParams(location.search);
       const reference = params.get("url");
       const response = await fetch("../json/database.json");
       const data = await response.json();
+      // Remplace les données temporaires du canva par celle correspondante dans le JSON
       document.getElementById("title").textContent = data[reference].Name;
       document.getElementById("Timeline").textContent = data[reference].Timeline;
       document.getElementById("Histoire").textContent = data[reference].Histoire;
@@ -21,6 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error loading JSON:", error);
     }
   }
-  // Load JSON on page load
+  // Charge le fichier JSON sur la page
   loadJSON();
 });

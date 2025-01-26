@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Intégration des polices d'écriture Expletu et Nabla-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Nabla&display=swap" rel="stylesheet" />
+    <!--Import de la fiche de style CSS-->
     <link rel="stylesheet" href="style/style.css" />
-    <script src="js/javascript.js" defer></script>
+    <!--Import du javascript lié à l'API AR JSON-->
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-    <!--<script src="js/testvar.js"></script>-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Déclaration du manifest-->
     <link rel="manifest" href="manifest.json" />
     <title>Immersive Sumexum</title>
   </head>
   <body>
     <div class="container">
+      <!--Génération de l'en-tête de la page d'accueil-->
       <header id="headerIndex">
         <h1>Immersive sumexum</h1>
       </header>
       <main>
+        <!--Génération du menu déroulant contenant les variant du liens du canva pour chaque jeu-->
         <ul class="menu">
           <li class="menuHead">
             Choix du jeu
@@ -50,6 +54,7 @@
         </ul>
         <iframe id="arCamera" allow="camera" height="100%" width="100%" scrolling="no" src="./camera.html" allowfullscreen></iframe>
       </main>
+      <!--Définition du pied de page de la pgae d'accueil-->
       <footer>
         <p>Site développé par Henri Gicquel et Maxime Albertelli</p>
       </footer>
